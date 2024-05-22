@@ -526,4 +526,75 @@ ANIMAL_FACTS = (
 
     "Horses can’t vomit.",
 
+    "Both male and female caribou grow antlers.",
+
+    "Alternate American names for the Elk are the moose and the Wapiti.",
+
+    "A group of frogs is called an army.",
+
+    "Tigers can see 6 times better at night than humans.",
+
+    "Starfish don’t die of old age.",
+
+    "A male gorilla can eat 40 pounds of food a day.",
+
+    "A group of whales is called a pod.",
+
+    "Female harp seals get in groups to have their babies once mating season is over.",
+
+    "When giraffes age, their fur darkens.",
+
+    "Heron’s eggs have a greenish-blue pale color.",
+
+    "You are more likely to be killed by a champagne cork than by a poisonous spider.",
+
+    "All dolphins have a different whistle.",
+
+    "Scientists had to go 45 million years back in history to find the elephant’s oldest ancestor.",
+
+    "Tiger Day is the last Sunday in September.",
+
+    "There is no visual difference between male and female herons.",
+
+    "A full-grown bear can run as fast as a horse.",
+
+    "Hyenas regularly eat the feces of other animals.",
+
+    "Frogs cannot swallow without blinking.",
+
+    "A giraffe has the same number of bones in its neck as a man.",
+
+    "Moose have very poor vision. Some have even tried to mate with cars.",
+
+    "The swan has over 25,000 feathers on its body.",
+
+    "African elephants have bigger ears than Indian elephants.",
+
+    "There is no record of a human being attacked by a healthy wolf.",
+
+    "Hummingbirds are the only birds who can fly backward.",
+
+    "Dolphins can eat up to 30 pounds of fish a day.",
+
+    "There’s a spider in Brazil whose bites can cause an erection that lasts for hours!",
+
+    "There are no ants in Iceland, Greenland, and Antarctica.",
     
+    "Before they’re even born, sand tiger sharks eat their twin brothers and sisters!",
+
+    "Jellyfish evaporate in the sun. They’re 98% water.",
+
+    "A rooster is simply a male chicken.",
+
+    "Pikachu is a mouse-type Pokémon.",
+
+    "Some lions mate over 50 times a day.",
+
+    "The Big Five is a group of animals of Africa: cape buffalo, elephant, leopard, lion and rhino.",
+
+    "The slowest fish is the sea horse, which moves along at about 0.01 mph (0.016 km/h).",
+
+    "Millions of trees are accidentally planted by squirrels that bury nuts and then forget where they hid them.",
+
+    "The lifespan of a bush baby is 14 years.")
+
