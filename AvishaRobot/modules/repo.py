@@ -16,8 +16,7 @@ AVISHA = "https://graph.org/file/dcc62e53435a919373a0a.jpg"
 async def repo(client, message):
     await message.reply_photo(
         photo=AVISHA,
-        caption=f"""**❖ ʜᴇʏ {message.from_user.mention()}, ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ !\n\n● ɪ ᴀᴍ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username})**\n\n❖ **ɪғ ʏᴏᴜ ᴡᴀɴᴛ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐ ʙᴏᴛ ʀᴇᴘᴏ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.**
-""",
+        caption=f"""❖ ʜᴇʏ {message.from_user.mention()}, ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ ♥︎\n\n⬤ ɪғ ʏᴏᴜ ᴡᴀɴᴛ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username}) ʙᴏᴛ ʀᴇᴘᴏ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [{dispatcher.bot.first_name}](t.me/{dispatcher.bot.username}) """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
