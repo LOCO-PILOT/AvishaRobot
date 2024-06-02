@@ -21,7 +21,7 @@ def speedtestxyz(update: Update, context: CallbackContext):
     ]
 
     update.effective_message.reply_text(
-        "✦ sᴩᴇᴇᴅᴛᴇsᴛ ᴍᴏᴅᴇ", reply_markup=InlineKeyboardMarkup(buttons)
+        "⬤ sᴩᴇᴇᴅᴛᴇsᴛ ᴍᴏᴅᴇ ⏤͟͟͞͞★", reply_markup=InlineKeyboardMarkup(buttons)
     )
 
 
@@ -29,12 +29,12 @@ def speedtestxyz_callback(update: Update, context: CallbackContext):
     query = update.callback_query
 
     if query.from_user.id in DEV_USERS:
-        msg = update.effective_message.edit_text("❍ ʀᴜɴɴɪɴɢ ᴀ sᴩᴇᴇᴅᴛᴇsᴛ...")
+        msg = update.effective_message.edit_text("⬤ ʀᴜɴɴɪɴɢ ᴀ sᴩᴇᴇᴅᴛᴇsᴛ...")
         speed = speedtest.Speedtest()
         speed.get_best_server()
         speed.download()
         speed.upload()
-        replymsg = "✦ sᴩᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛ ʙʏ ➠ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐"
+        replymsg = "⬤ sᴩᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛ ʙʏ ➥ ˹ ᴀᴠɪsʜᴀ ꭙ ʀᴏʙᴏᴛ™ ♡゙"
 
         if query.data == "speedtest_image":
             speedtest_image = speed.results.share()
@@ -45,10 +45,10 @@ def speedtestxyz_callback(update: Update, context: CallbackContext):
 
         elif query.data == "speedtest_text":
             result = speed.results.dict()
-            replymsg += f"\n\n❅ ᴅᴏᴡɴʟᴏᴀᴅ ➠ `{convert(result['download'])} ᴍʙ/s`\n❅ ᴜᴘʟᴏᴀᴅ ➠ `{convert(result['upload'])}ᴍʙ/s`\n❅ ᴘɪɴɢ ➠ `{result['ping']}`\n\n✦ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐"
+            replymsg += f"\n\n⬤ ᴅᴏᴡɴʟᴏᴀᴅ ➥ `{convert(result['download'])} ᴍʙ/s`\n● ᴜᴘʟᴏᴀᴅ ➥ `{convert(result['upload'])}ᴍʙ/s`\n● ᴘɪɴɢ ➥ `{result['ping']}`\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹ ᴀᴠɪsʜᴀ ꭙ ʀᴏʙᴏᴛ™ ♡゙"
             update.effective_message.edit_text(replymsg, parse_mode=ParseMode.MARKDOWN)
     else:
-        query.answer("❍ ʏᴏᴜ ᴀʀᴇ ʀᴇǫᴜɪʀᴇᴅ ᴛᴏ ᴊᴏɪɴ @the_friendz ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ.")
+        query.answer("⬤ ʏᴏᴜ ᴀʀᴇ ʀᴇǫᴜɪʀᴇᴅ ᴛᴏ ᴊᴏɪɴ @the_friendz ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ.")
 
 
 SPEED_TEST_HANDLER = DisableAbleCommandHandler(
@@ -63,7 +63,7 @@ dispatcher.add_handler(SPEED_TEST_CALLBACKHANDLER)
 
 __help__ = """
 
-❍ /speedtest *➛* ʀᴜɴs ᴀ sᴘᴇᴇᴅᴛᴇsᴛ ᴀɴᴅ ᴄʜᴇᴄᴋ ᴛʜᴇ sᴇʀᴠᴇʀ sᴘᴇᴇᴅ.
+⬤ /speedtest *➥* ʀᴜɴs ᴀ sᴘᴇᴇᴅᴛᴇsᴛ ᴀɴᴅ ᴄʜᴇᴄᴋ ᴛʜᴇ sᴇʀᴠᴇʀ sᴘᴇᴇᴅ.
 """
 
 __mod_name__ = "s-ᴛᴇsᴛ"
