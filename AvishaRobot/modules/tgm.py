@@ -1,6 +1,6 @@
 from telegraph import upload_file
 from pyrogram import filters
-from MukeshRobot import pbot as app
+from AvishaRobot import pbot as app
 from pyrogram.types import InputMediaPhoto
 
 
@@ -14,7 +14,7 @@ def ul(_, message):
         for x in fk:
             url = "https://telegra.ph" + x
 
-        i.edit(f'⬤ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➥ \n`{url}`\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐' )
+        i.edit(f'⬤ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➥ \n`{url}`\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹ ᴀᴠɪsʜᴀ ꭙ ʀᴏʙᴏᴛ™ ♡゙' )
 
 ########____________________________________________________________######
 
@@ -28,5 +28,12 @@ def ul(_, message):
         for x in fk:
             url = "https://graph.org" + x
 
-        i.edit(f'⬤ ʏᴏᴜʀ ɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➥ \n`{url}`\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐' )
+        i.edit(f'⬤ ʏᴏᴜʀ ɢʀᴀᴘʜ ᴜʀʟ ɪs ʀᴇᴀᴅʏ ʙᴀʙʏ ➥ \n`{url}`\n\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹ ᴀᴠɪsʜᴀ ꭙ ʀᴏʙᴏᴛ™ ♡゙' )
   
+__help__ = """
+
+ ⬤ /tgm ➥ ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴘʜ ʟɪɴᴋ ᴏғ ʀᴇᴘʟɪᴇᴅ ᴍᴇᴅɪᴀ.
+ ⬤ /graph ➥ ɢᴇᴛ ɢʀᴀᴘʜ ʟɪɴᴋ ᴏғ ʀᴇᴘʟɪᴇᴅ ᴍᴇᴅɪᴀ.
+"""
+
+__mod_name__ = "ɢʀᴀᴘʜ"
