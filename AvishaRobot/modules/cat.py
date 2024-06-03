@@ -5,7 +5,6 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from pyrogram.types import Message
 from AvishaRobot import pbot as app
-from AvishaRobot import BANNED_USERS
 
 close_keyboard = InlineKeyboardMarkup(
     [
@@ -17,7 +16,7 @@ close_keyboard = InlineKeyboardMarkup(
 )
 
 
-@app.on_message(filters.command("cat") & ~BANNED_USERS)
+@app.on_message(filters.command("cat"))
 async def cat(c, m: Message):
     r = requests.get("https://api.thecatapi.com/v1/images/search")
     if r.status_code == 200:
@@ -33,7 +32,7 @@ async def cat(c, m: Message):
         await m.reply_text("⬤ ғᴀɪʟᴇᴅ ᴛᴏ ғᴇᴛᴄʜ ᴄᴀᴛ ᴘɪᴄᴛᴜʀᴇ. 🙀")
 
 
-@app.on_callback_query(filters.regex("refresh_cat") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("refresh_cat"))
 async def refresh_cat(c, m: CallbackQuery):
     r = requests.get("https://api.thecatapi.com/v1/images/search")
     if r.status_code == 200:
