@@ -1,35 +1,44 @@
+from pyrogram import Client, filters
 import requests
-from telegram import ParseMode
-from telegram.ext import CommandHandler
-
-import random
-from AvishaRobot import dispatcher
+from AvishaRobot import pbot as app
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
-def waifu(update, context):
+EVAA = [
+    [
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/avishaxbot?startgroup=true"),
+    ],
+]
+
+
+waifu_api_url = 'https://api.waifu.im/search'
+
+def get_waifu_data(tags):
+    params = {
+        'included_tags': tags,
+        'height': '>=2000'
+    }
+
+    response = requests.get(waifu_api_url, params=params)
+
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return None
+
+@app.on_message(filters.command("waifu"))
+def waifu_command(client, message):
     try:
-        msg = update.effective_message
-        # API (DON'T EDIT)
-        url = f'https://api.animeepisode.org/waifu/'
-        result = requests.get(url).json()
-        img = result['Character_Image']
-        # Message (EDIT THIS PART AS HTML *IF YOU WANT*)
-        text = f'''
-<b>⬤ ɴᴀᴍᴇ ➥</b> <code>{result['Character_Name']}</code>
-        
-<b>⬤ ᴀɴɪᴍᴇ ➥</b> <code>{result['Anime_name']}</code>
-'''
-        msg.reply_photo(photo=img, caption=text, parse_mode=ParseMode.HTML)
+        tags = ['maid']  # You can customize the tags as needed
+        waifu_data = get_waifu_data(tags)
+
+        if waifu_data and 'images' in waifu_data:
+            first_image = waifu_data['images'][0]
+            image_url = first_image['url']
+            message.reply_photo(image_url, caption=f"❖ ᴡᴀɪғᴜ ɪᴍɢ ʙʏ ➥ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐", reply_markup=InlineKeyboardMarkup(EVAA),)
+        else:
+            message.reply_text("⬤ No waifu found with the specified tags.")
 
     except Exception as e:
-        text = f'<b>⬤ ᴇʀʀᴏʀ</b> ➥ <code>' + e + '</code>'
-        msg.reply_text(text, parse_mode=ParseMode.HTML)
-
-
-WAIFUINFO_HANDLER = CommandHandler('waifuinfo', waifu, run_async=True)
-dispatcher.add_handler(WAIFUINFO_HANDLER)
-
-
-__mod_name__ = "ᴡᴀɪғᴜs"
-
-__handlers__ = [WAIFUINFO_HANDLER]
+        message.reply_text(f"⬤ An error occurred ➥ {str(e)}")
+        
