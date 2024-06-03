@@ -2,7 +2,7 @@ import json
 import requests
 from pyrogram import Client, filters
 from pyrogram.types import InputMediaPhoto, Message
-from MukeshRobot import pbot as app
+from AvishaRobot import pbot as app
 
 
 @app.on_message(filters.command("bimg"))
