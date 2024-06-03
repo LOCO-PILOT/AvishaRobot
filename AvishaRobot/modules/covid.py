@@ -31,7 +31,7 @@ def covid(update: Update, context: CallbackContext):
            reply_text = f"**❖ ᴄᴏʀᴏɴᴀ ᴄᴀsᴇs ғᴏʀ {r['country']} 🦠** ❖\n\n● ᴄᴀsᴇs ➥ {r['cases']:,}\n● ᴛᴏᴅᴀʏ ᴄᴀsᴇs ➥ {r['todayCases']:,}\n● ᴅᴇᴀᴛʜs ➥ {r['deaths']:,}\n● ᴛᴏᴅᴀʏ ᴅᴇᴀᴛʜs ➥ {r['todayDeaths']:,}\n● ʀᴇᴄᴏᴠᴇʀᴇᴅ ➥ {r['recovered']:,}\n● ᴀᴄᴛɪᴠᴇ ➥ {r['active']:,}\n● ᴄɪʀᴛɪᴄᴀʟ ➥ {r['critical']:,}\n● ᴄᴀsᴇs/ᴍɪʟ ➥ {r['casesPerOneMillion']}\n● ᴅᴇᴀᴛʜs/ᴍɪʟ ➥ {r['deathsPerOneMillion']}\n\n✦ ᴄᴏᴠɪᴅ ʀᴇᴘᴏʀᴛ ʙʏ ➥ ᴀ ᴠ ɪ s ʜ ᴀ ࿐ "
        message.reply_text(reply_text, parse_mode=ParseMode.MARKDOWN)
     except Exception:
-        return msg.reply_text("❖ ᴛʜᴇʀᴇ ᴡᴀs ᴀ ᴘʀᴏʙʟᴀᴍ ᴡʜɪʟᴇ ɪᴍᴘᴏʀᴛɪɴɢ ᴛʜᴇ ᴅᴀᴛᴀ.")
+        return msg.reply_text("⬤ ᴛʜᴇʀᴇ ᴡᴀs ᴀ ᴘʀᴏʙʟᴀᴍ ᴡʜɪʟᴇ ɪᴍᴘᴏʀᴛɪɴɢ ᴛʜᴇ ᴅᴀᴛᴀ.")
 
 
 COVID_HANDLER = DisableAbleCommandHandler(["covid", "corona"], covid, run_async = True)
@@ -43,5 +43,5 @@ __mod_name__="ᴄᴏᴠɪᴅ¹⁹"
 
 __help__="""
 
- ❍ /covid ➛ ᴄʜᴇᴀᴄᴋ ᴄᴏᴠɪᴅ ᴄᴀsᴇs ɪɴ ʏᴏᴜʀ ᴄᴏᴜɴᴛʀʏ.
+ ⬤ /covid ➥ ᴄʜᴇᴀᴄᴋ ᴄᴏᴠɪᴅ ᴄᴀsᴇs ɪɴ ʏᴏᴜʀ ᴄᴏᴜɴᴛʀʏ.
  """
