@@ -129,8 +129,8 @@ async def ctest(_, message):
     
 __help__ = """
 
- ❍ /couples ➥ ᴄʜᴏᴏsᴇ 2 ᴜsᴇʀs ᴀɴᴅ sᴇɴᴅ ᴛʜᴇɪʀ ɴᴀᴍᴇ ᴀs ᴄᴏᴜᴘʟᴇs ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ.
- ❍ /lov <fristuser seconduser> ➥ sʜᴏᴡ ʟᴏᴠᴇ ᴘᴇʀᴄᴇɴᴛᴀɢᴇ.
+ ⬤ /couples ➥ ᴄʜᴏᴏsᴇ 2 ᴜsᴇʀs ᴀɴᴅ sᴇɴᴅ ᴛʜᴇɪʀ ɴᴀᴍᴇ ᴀs ᴄᴏᴜᴘʟᴇs ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ.
+ ⬤ /lov <fristuser seconduser> ➥ sʜᴏᴡ ʟᴏᴠᴇ ᴘᴇʀᴄᴇɴᴛᴀɢᴇ.
 """
 
 __mod_name__ = "ᴄᴏᴜᴘʟᴇ"
