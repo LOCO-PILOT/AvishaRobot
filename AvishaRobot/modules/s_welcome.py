@@ -95,7 +95,7 @@ async def greet_group(_, member: ChatMemberUpdated):
       # return
     if (
         not member.new_chat_member
-        or member.new_chat_member.status in {"banned", "left", "restricted"}
+        or member.new_chat_member.status in {"restricted"}
         or member.old_chat_member
     ):
         return
