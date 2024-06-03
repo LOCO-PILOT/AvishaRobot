@@ -133,12 +133,12 @@ dispatcher.add_handler(LOG_HANDLER)
 
 __help__ = """    
 
-❍ /cos ➛ ᴄᴏsɪɴᴇ /cos pi
-❍ /sin ➛ sɪɴᴇ /sin 0
-❍ /tan ➛ ᴛᴀɴɢᴇɴᴛ /tan 0
-❍ /arccos ➛ ɪɴᴠᴇʀsᴇ ᴄᴏsɪɴᴇ /arccos 1
-❍ /arcsin ➛ ɪɴᴠᴇʀsᴇ sɪɴᴇ /arcsin 0
-❍ /arctan ➛ ɪɴᴠᴇʀsᴇ ᴛᴀɴɢᴇɴᴛ /arctan 0
-❍ /abs ➛ ᴀʙsᴏʟᴜᴛᴇ ᴠᴀʟᴜᴇ /abs -1
-❍ /log ➛ ʟᴏɢᴀʀɪᴛʜᴍ /log 2l8
+⬤ /cos ➥ ᴄᴏsɪɴᴇ /cos pi
+⬤ /sin ➥ sɪɴᴇ /sin 0
+⬤ /tan ➥ ᴛᴀɴɢᴇɴᴛ /tan 0
+⬤ /arccos ➥ ɪɴᴠᴇʀsᴇ ᴄᴏsɪɴᴇ /arccos 1
+⬤ /arcsin ➥ ɪɴᴠᴇʀsᴇ sɪɴᴇ /arcsin 0
+⬤ /arctan ➥ ɪɴᴠᴇʀsᴇ ᴛᴀɴɢᴇɴᴛ /arctan 0
+⬤ /abs ➥ ᴀʙsᴏʟᴜᴛᴇ ᴠᴀʟᴜᴇ /abs -1
+⬤ /log ➥ ʟᴏɢᴀʀɪᴛʜᴍ /log 2l8
 """
