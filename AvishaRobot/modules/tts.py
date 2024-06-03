@@ -9,3 +9,9 @@ def text_to_speech(client, message):
     tts.save('avisha.mp3')
     client.send_audio(message.chat.id, 'avisha.mp3')
   
+__mod_name__ = "ɢᴛᴛs"
+
+__help__ = """
+
+⬤ /tts ➥ hello, how are you today.
+"""
