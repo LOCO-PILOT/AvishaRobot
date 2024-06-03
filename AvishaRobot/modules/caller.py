@@ -51,10 +51,5 @@ dispatcher.add_handler(PHONE_HANDLER)
 
 __mod_name__ = "ᴄᴀʟʟᴇʀ"
 
-__help__ = """
-
-⬤ /phone ➥ ꜰɪʟʟ ᴀɴʏ ᴍᴏʙɪʟᴇ ɴᴜᴍʙᴇʀ ᴛᴏ ᴄʜᴇᴄᴋ ɪɴꜰᴏ.
-"""
-
 __command_list__ = ["phone"]
 __handlers__ = [PHONE_HANDLER]
