@@ -8,6 +8,7 @@ from telethon import __version__ as s
 
 from AvishaRobot import OWNER_ID, dispatcher
 from AvishaRobot import pbot as client
+from AvishaRobot import pbot as app 
 
 AVISHA = "https://graph.org/file/dcc62e53435a919373a0a.jpg"
 
