@@ -59,3 +59,10 @@ def group_status(client, message):
     
 
 
+__help__ = """
+
+ ⬤ /groupinfo ➥ ɢᴇᴛ ɢʀᴏᴜᴘ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.
+ ⬤ /groupdata ➥ ɢᴇᴛ ɢʀᴏᴜᴘ ᴅᴀᴛᴀ.
+"""
+
+__mod_name__ = "ɢʀᴏᴜᴘ"
