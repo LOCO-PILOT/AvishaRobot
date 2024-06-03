@@ -112,8 +112,6 @@ async def ytmusic(client, message: Message):
 
 
 __mod_name__ = "ᴠɪᴅᴇᴏ"
-__help__ = """ 
 
-⬤ /vsong ➥ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ sᴏɴɢ """
 
   
