@@ -11,7 +11,7 @@ def get_random_picture():
     else:
         return None  
 
-@app.on_message(filters.command("randompic"))
+@app.on_message(filters.command("rp"))
 def pic(client, message):
     random_pic = get_random_picture()
     if random_pic:
