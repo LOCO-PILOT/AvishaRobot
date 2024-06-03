@@ -19,7 +19,8 @@ async def generate_whatsapp_link(client, message: Message):
   
 __help__ = """
 
-❍ /whatsapp +1 1234567890* ➛* ɢɪᴛ ᴡʜᴀᴛsᴀᴘᴘ ʟɪɴᴋ.
+⬤ /whatsapp +11234567890 ➥ ɢᴇᴛ ᴡʜᴀᴛsᴀᴘᴘ ʟɪɴᴋ.
+⬤ /phone ➥ ᴄʜᴇᴀᴋ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ sʜᴏʀᴛ ᴅᴇᴛᴀɪʟs.
 """
 
 __mod_name__ = "ᴡʜᴀᴛsᴀᴘᴘ"
