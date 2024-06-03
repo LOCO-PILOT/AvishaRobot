@@ -92,7 +92,9 @@ async def whois(client, message):
 
 
 __mod_name__ = "ᴡʜᴏɪs"
+
 __help__ = """
- ❍ /whois ➛ ᴜsᴇʀ sʜᴏʀᴛ ɪɴғᴏ.
+
+⬤ /whois ➥ ᴜsᴇʀ sʜᴏʀᴛ ɪɴғᴏ.
  """
 
