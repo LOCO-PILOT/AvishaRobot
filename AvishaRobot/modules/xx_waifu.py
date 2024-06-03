@@ -29,13 +29,7 @@ def waifu(update, context):
 WAIFUINFO_HANDLER = CommandHandler('waifuinfo', waifu, run_async=True)
 dispatcher.add_handler(WAIFUINFO_HANDLER)
 
-k
+
 __mod_name__ = "ᴡᴀɪғᴜs"
-
-__help__ = '''
-
-   ❍ `/waifu`* ➛* sᴇɴᴅs ʟɪᴍɪᴛᴇᴅ ʙᴜᴛ ʙᴇsᴛ ᴡᴀɪғᴜ ɪᴍᴀɢᴇ. 
-'''
-
 
 __handlers__ = [WAIFUINFO_HANDLER]
