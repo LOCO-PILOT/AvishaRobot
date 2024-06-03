@@ -3,7 +3,7 @@ from telethon import Button
 from AvishaRobot import telethn
 from AvishaRobot.events import register
 
-PHOTO = "https://telegra.ph/file/b631c44eb975eb3640ccf.mp4"
+PHOTO = "https://graph.org/file/58b51eea6da66728915f1.mp4"
 
 
 @register(pattern=("Good night"))
