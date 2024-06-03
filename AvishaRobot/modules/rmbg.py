@@ -1,4 +1,3 @@
-
 import os
 import aiohttp
 import aiofiles
@@ -67,6 +66,9 @@ __mod_name__ = "ʙɢʀᴍ"
 
 __help__ = """
 
+ ⬤ /upscale ➥ ᴜᴘsᴄᴀʟᴇ ʏᴏᴜʀ ɪᴍɢ.
  ⬤ /rmbg ➥ ʀᴇᴘʟʏ ᴏɴʟʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ ᴛᴏ ʀᴇᴍᴏᴠᴇ ɪᴛ's ʙᴀᴄᴋɢʀᴏᴜɴᴅ.
+ ⬤ /paste ➥ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴛᴇxᴛ ғɪʟᴇ.
+ ⬤ /reverse | pp ➥ ᴀ ʀᴇᴠᴇʀsᴇ ɪᴍᴀɢᴇ sᴇᴀʀᴄʜ ᴏғ ᴛʜᴇ ᴍᴇᴅɪᴀ.
  """
 
