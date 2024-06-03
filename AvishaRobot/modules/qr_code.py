@@ -49,7 +49,3 @@ def qr_handler(client, message: Message):
 
 __mod_name__ = "ǫʀᴄᴏᴅᴇ"
 
-__help__ = """
-
- ⬤ /qr ➥ ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ǫʀᴄᴏᴅᴇ
- """
