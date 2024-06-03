@@ -61,7 +61,8 @@ def plet(update: Update, context: CallbackContext):
         context.bot.send_sticker(chat_id=message.chat_id, sticker=buffer)
 
 __help__ = """
-❍ /plet <text> ➛ ᴍᴀᴋᴇ ᴘɴɢ ᴇᴍᴏᴊɪ ʟᴇᴛᴛᴇʀ 
+
+⬤ /plet <text> ➥ ᴍᴀᴋᴇ ᴘɴɢ ᴇᴍᴏᴊɪ ʟᴇᴛᴛᴇʀ.
 """
 
 PLET_HANDLER = DisableAbleCommandHandler("plet", plet)
@@ -69,5 +70,6 @@ PLET_HANDLER = DisableAbleCommandHandler("plet", plet)
 dispatcher.add_handler(PLET_HANDLER)
 
 __mod_name__ = "ᴘʟᴇᴛ"
+
 __handlers__ = [PLET_HANDLER]
 
