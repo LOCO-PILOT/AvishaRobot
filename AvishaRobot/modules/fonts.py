@@ -16,7 +16,7 @@ async def style_buttons(c, m, cb=False):
         [
             InlineKeyboardButton("𝑺𝒆𝒓𝒊𝒇", callback_data="style+bold_cool"),
             InlineKeyboardButton("𝑆𝑒𝑟𝑖𝑓", callback_data="style+cool"),
-            InlineKeyboardButton("Sᴍᴀʟʟ Cᴀᴘs", callback_data="style+small_cap"),
+            InlineKeyboardButton("sᴍᴀʟʟ ᴄᴀᴘs", callback_data="style+small_cap"),
         ],
         [
             InlineKeyboardButton("𝓈𝒸𝓇𝒾𝓅𝓉", callback_data="style+script"),
