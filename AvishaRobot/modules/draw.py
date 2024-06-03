@@ -34,3 +34,9 @@ async def imagine_(b, message: Message):
     except Exception as e:
         await avisha.edit_text(f"error {e}")
 
+__mod_name__ = "ᴅʀᴀᴡɪɴɢ"
+
+__help__ = """
+
+ ⬤ /draw ➥ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ᴅʀᴀᴡɪɴɢ ɪᴍɢ.
+ """
