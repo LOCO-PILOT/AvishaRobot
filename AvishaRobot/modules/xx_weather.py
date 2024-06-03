@@ -20,16 +20,16 @@ def weather(client, message):
         message.reply_photo(photo=weather_url, caption="❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐", reply_markup=InlineKeyboardMarkup(EVAA),)
     except IndexError:
         # User didn't provide a location
-        message.reply_text("✦ Please provide a location. ♥︎ Use /weather NEW YORK")
+        message.reply_text("⬤ Please provide a location. ♥︎ Use ➥ /weather NEW YORK")
 
 
 
 __help__ = """
 
- ❍ /weather <ᴄɪᴛʏ>* ➛* ᴀᴅᴠᴀɴᴄᴇᴅ ᴡᴇᴀᴛʜᴇʀ ᴍᴏᴅᴜʟᴇ, ᴜsᴀɢᴇ sᴀᴍᴇ ᴀs /ᴡᴇᴀᴛʜᴇʀ
- ❍ /weather  ᴍᴏᴏɴ* ➛* ɢᴇᴛ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛᴜs ᴏғ ᴍᴏᴏɴ
- ❍ /calendar <year> ➛ sʜᴏᴡ ᴄᴀʟᴇɴᴅᴀʀ, ᴇx - 1984, 2004, 2024
- ❍ /day ➛ sʜᴏᴡ ᴅᴀʏ, ᴇx - 16/06/2003
+ ⬤ /weather <ᴄɪᴛʏ>* ➥* ᴀᴅᴠᴀɴᴄᴇᴅ ᴡᴇᴀᴛʜᴇʀ ᴍᴏᴅᴜʟᴇ, ᴜsᴀɢᴇ sᴀᴍᴇ ᴀs /ᴡᴇᴀᴛʜᴇʀ
+ ⬤ /weather  ᴍᴏᴏɴ* ➥* ɢᴇᴛ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛᴜs ᴏғ ᴍᴏᴏɴ
+ ⬤ /calendar <year> ➥ sʜᴏᴡ ᴄᴀʟᴇɴᴅᴀʀ, ᴇx - 1984, 2004, 2024
+ ⬤ /day ➥ sʜᴏᴡ ᴅᴀʏ, [● ᴇx ➣ 16/06/2003]
 """
 
 __mod_name__ = "ᴡᴇᴀᴛʜᴇʀ"
