@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from MukeshRobot import OWNER_ID, pbot
-from MukeshRobot.utils.admins import can_change_info
-from MukeshRobot.utils.errors import capture_err
-from MukeshRobot.utils.mongo import (
+from AvishaRobot import OWNER_ID, pbot
+from AvishaRobot.utils.admins import can_change_info
+from AvishaRobot.utils.errors import capture_err
+from AvishaRobot.utils.mongo import (
     alpha_to_int,
     get_karma,
     get_karmas,
