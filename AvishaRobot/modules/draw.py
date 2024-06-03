@@ -3,7 +3,17 @@ from pyrogram.types import  Message
 from pyrogram.types import InputMediaPhoto
 from AvishaRobot import pbot as  Avisha, BOT_USERNAME
 from MukeshAPI import api
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import ChatAction,ParseMode
+
+####
+EVAA = [
+    [
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Avishaxbot?startgroup=true"),
+    ],
+]
+
+####
 
 @Avisha.on_message(filters.command("draw"))
 async def imagine_(b, message: Message):
@@ -18,9 +28,9 @@ async def imagine_(b, message: Message):
         x=api.ai_image(text)
         with open("avisha.jpg", 'wb') as f:
             f.write(x)
-        caption = f"""⬤ ᴅʀᴀᴡɪɴɢ ɪᴍᴀɢᴇ ʙʏ ➥ ˹ ᴀᴠɪsʜᴀ ꭙ ʀᴏʙᴏᴛ™ ♡゙ """
+        caption = f"""⬤ ᴅʀᴀᴡɪɴɢ ɪᴍɢ ʙʏ ➥ ˹ ᴀᴠɪsʜᴀ ꭙ ʀᴏʙᴏᴛ™ ♡゙ """
         await avisha.delete()
-        await message.reply_photo("avisha.jpg",caption=caption,quote=True)
+        await message.reply_photo("avisha.jpg",caption=caption, reply_markup=InlineKeyboardMarkup(EVAA), quote=True)
     except Exception as e:
         await avisha.edit_text(f"error {e}")
 
