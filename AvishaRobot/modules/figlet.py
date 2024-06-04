@@ -31,5 +31,5 @@ async def figlet_handler(Client, query: CallbackQuery):
   except Exception as e : 
       await message.reply(e)
     
-__mod_name__ = "ғɪɢʟᴇᴛ" 
+
 
