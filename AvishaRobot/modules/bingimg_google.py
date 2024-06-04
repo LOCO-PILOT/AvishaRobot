@@ -13,7 +13,7 @@ def bingimg_search(client: Client, message: Message):
         ]  
     except IndexError:
         return message.reply_text(
-            "❖ ᴘʀᴏᴠɪᴅᴇ ᴍᴇ ᴀ ǫᴜᴇʀʏ ᴛᴏ sᴇᴀʀᴄʜ!"
+            "⬤ ᴘʀᴏᴠɪᴅᴇ ᴍᴇ ᴀ ǫᴜᴇʀʏ ᴛᴏ sᴇᴀʀᴄʜ!"
         )  
 
     search_message = message.reply_text(
@@ -47,6 +47,6 @@ __help__ = """
  ⬤ /img ➥ sᴇᴀʀᴄʜ ɢᴏᴏɢʟᴇ ɪᴍᴀɢᴇs ᴄᴏʟʟᴇᴄᴛɪᴏɴ.
  ⬤ /pimg ➥ sᴇᴀʀᴄʜ ᴘʀᴇᴍɪᴜᴍ ɪᴍᴀɢᴇs ᴄᴏʟʟᴇᴄᴛɪᴏɴ, ᴜsᴇʀs ᴜsᴇ ᴏɴʟʏ ᴍʏ ᴘᴍ.
  ⬤ /rp ➥ ʀᴀɴᴅᴏᴍ ᴡᴀʟʟᴘᴀᴘᴇʀ ɪᴍᴀɢᴇ.
- ⬤ /pic <query> ➥ sᴇᴀʀᴄʜ ᴏᴡɴ ǫᴜᴇʀʏ ɪᴍᴀɢᴇ [● ᴇx ✒ /pic Tajmahal].
+ ⬤ /pic <query> ➥ sᴇᴀʀᴄʜ ᴏᴡɴ ǫᴜᴇʀʏ ɪᴍᴀɢᴇ [● ᴇx ➣ /pic Tajmahal].
  """
 
