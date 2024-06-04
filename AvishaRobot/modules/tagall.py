@@ -102,5 +102,12 @@ __help__ = """
 
 ⬤ /tagall ᴏʀ /utag ➥ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴍᴇᴍʙᴇʀs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 ⬤ /cancel ➥ sᴛᴏᴘ ᴛᴀɢɢɪɴɢ ʙᴀʙʏ.
+
+⬤ /entag ➥ ᴇɴɢʟɪsʜ ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /enstop
+⬤ /lifetag ➥ ʟɪғᴇ ǫᴜᴏᴛᴇs ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /lstop
+⬤ /hitag ➥ ʜɪɴᴅɪ ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /histop
+⬤ /stag ➥ sʜʏᴀʀɪ ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /sstop
+⬤ /bntag ➥ ʙᴀɴɢʟᴀ ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /bnstop
+⬤ /vctag ➥ ᴠᴄ ɪɴᴠɪᴛᴇ ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /vstop
 """
       
