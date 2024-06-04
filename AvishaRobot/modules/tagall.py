@@ -106,6 +106,7 @@ __help__ = """
 ⬤ /entag ➥ ᴇɴɢʟɪsʜ ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /enstop
 ⬤ /lifetag ➥ ʟɪғᴇ ǫᴜᴏᴛᴇs ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /lstop
 ⬤ /hitag ➥ ʜɪɴᴅɪ ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /histop
+⬤ /rtag ➥ ʀᴀɴᴅᴏᴍ ᴍᴇssᴀɢᴇ ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /rstop
 ⬤ /stag ➥ sʜʏᴀʀɪ ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /sstop
 ⬤ /bntag ➥ ʙᴀɴɢʟᴀ ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /bnstop
 ⬤ /vctag ➥ ᴠᴄ ɪɴᴠɪᴛᴇ ᴛᴀɢ. || ● sᴛᴏᴘ ➣ /vstop
