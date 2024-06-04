@@ -15,7 +15,7 @@ def totranslate(update: Update, context: CallbackContext) -> None:
     reply_msg = message.reply_to_message
     if not reply_msg:
         message.reply_text(
-            "⬤ ᴜsᴇ ➥ `/tr en` ғᴏʀ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴅᴇᴛᴇᴄᴛɪᴏɴ ᴀɴᴅ ᴛʀᴀɴsʟᴀᴛɪɴɢ ɪᴛ ɪɴᴛᴏ ᴇɴɢʟɪsʜ.",
+            "⬤ ᴜsᴇ ➥ `/tl en` ғᴏʀ ᴀᴜᴛᴏᴍᴀᴛɪᴄ ᴅᴇᴛᴇᴄᴛɪᴏɴ ᴀɴᴅ ᴛʀᴀɴsʟᴀᴛɪɴɢ ɪᴛ ɪɴᴛᴏ ᴇɴɢʟɪsʜ.",
             parse_mode="markdown",
             disable_web_page_preview=True,
         )
