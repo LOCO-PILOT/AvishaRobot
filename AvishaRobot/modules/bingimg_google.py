@@ -39,7 +39,7 @@ def bingimg_search(client: Client, message: Message):
     message.delete()
 ####
 
-__mod_name__ = "ɪᴍɢ"
+__mod_name__ = "ɪᴍᴀɢᴇ"
 
 __help__ = """
 
