@@ -18,6 +18,11 @@ EDIT_SLEEP = 1
 #edit how many times in 'heart' 
 EDIT_TIMES = 10
 
+#sleep how many times after each edit in 'sexy' 
+EDIT_SLEEP = 1
+#edit how many times in 'sexy' 
+EDIT_TIMES = 14
+
 
 # sleep how many times after each edit in 'love'
 EDIT_SLEEP = 1
@@ -72,6 +77,23 @@ EDIT_TIMES = 14
 EDIT_SLEEP = 1
 # edit how many times in 'kill'
 EDIT_TIMES = 12
+
+sexy_siren = [
+             "1 ❤️ love story",
+        "  😐             😕 \n/👕\         <👗\ \n 👖               /|",
+        "  😉          😳 \n/👕\       /👗\ \n  👖            /|",
+        "  😚            😒 \n/👕\         <👗> \n  👖             /|",
+        "  😍         ☺️ \n/👕\      /👗\ \n  👖          /|",
+        "  😍          😍 \n/👕\       /👗\ \n  👖           /|",
+        "  😘   😊 \n /👕\/👗\ \n   👖   /|",
+        " 😳  😁 \n /|\ /👙\ \n /     / |",
+        "😈    /😰\ \n<|\      👙 \n /🍆    / |",
+        "😅 \n/(),✊😮 \n /\         _/\\/|",
+        "😎 \n/\\_,__😫 \n  //    //       \\",
+        "😖 \n/\\_,💦_😋  \n  //         //        \\",
+        "  😭      ☺️ \n  /|\   /(👶)\ \n  /!\   / \ ",
+        "Abee aur kitna dekhoge be besharmi ki bhi hadd hoti hai..,The End 😂...",
+]
 
 
 block_chain = [
@@ -302,7 +324,7 @@ def brainanimation(update: Update, context: CallbackContext):
     for x in range(EDIT_TIMES):
         msg.edit_text(brain_chain[x % 14])
         time.sleep(EDIT_SLEEP)
-    msg.edit_text("❖ ʏᴏᴜ ᴘᴜᴛ ʙʀᴀɪɴ ɪɴ ᴅᴜsᴛʙɪɴ")
+    msg.edit_text("❖ ʏᴏᴜ ᴘᴜᴛ ʙʀᴀɪɴ ɪɴ ᴅᴜsᴛʙɪɴ 🧠")
 
 
 @user_admin
@@ -405,6 +427,17 @@ def heart(update: Update, context: CallbackContext):
         msg.edit_text(heart_siren[x % 10])
         time.sleep(EDIT_SLEEP)
     msg.edit_text("❖ ᴄᴏʟᴏᴜʀғᴜʟʟ ʜᴇᴀʀᴛ ♥︎")
+
+
+@user_admin
+@run_async
+def sexy(update: Update, context: CallbackContext):
+    bot, args = context.bot, context.args
+    msg = update.effective_message.reply_text("ᴡᴀɪᴛ ʙᴀʙʏ...♥︎")
+    for x in range(EDIT_TIMES):
+        msg.edit_text(sexy_siren[x % 14])
+        time.sleep(EDIT_SLEEP)
+    msg.edit_text("❖ ᴍʏ ɢғ ɪs sᴏ sᴇxʏ...♥︎")
   
 
 @user_admin
@@ -421,6 +454,7 @@ def kill(update: Update, context: CallbackContext):
 KILL_HANDLER = DisableAbleCommandHandler("kill", kill)
 LOVE_HANDLER = DisableAbleCommandHandler("love", love)
 HEART_HANDLER = DisableAbleCommandHandler("heart", heart)
+SEXY_HANDLER = DisableAbleCommandHandler("sexy", sexy)
 HACK_HANDLER = DisableAbleCommandHandler("hack", hack)
 BOMBS_HANDLER = DisableAbleCommandHandler("bombs", bombs)
 MOONANIMATION_HANDLER = DisableAbleCommandHandler("moon", moonanimation)
@@ -432,6 +466,7 @@ BLOCKANIMATION_HANDLER = DisableAbleCommandHandler("block", blockanimation)
 dispatcher.add_handler(KILL_HANDLER)
 dispatcher.add_handler(LOVE_HANDLER)
 dispatcher.add_handler(HEART_HANDLER)
+dispatcher.add_handler(SEXY_HANDLER)
 dispatcher.add_handler(HACK_HANDLER)
 dispatcher.add_handler(BOMBS_HANDLER)
 dispatcher.add_handler(INDIAANIMATION_HANDLER)
