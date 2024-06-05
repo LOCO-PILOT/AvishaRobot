@@ -7,6 +7,18 @@ from AvishaRobot import dispatcher,OWNER_ID
 from AvishaRobot.modules.disable import DisableAbleCommandHandler
 from AvishaRobot.modules.helper_funcs.chat_status import user_admin
 
+
+#sleep how many times after each edit in 'blockanimation' 
+EDIT_SLEEP = 1
+#edit how many times in 'blockanimation' 
+EDIT_TIMES = 18
+
+#sleep how many times after each edit in 'heart' 
+EDIT_SLEEP = 1
+#edit how many times in 'heart' 
+EDIT_TIMES = 10
+
+
 # sleep how many times after each edit in 'love'
 EDIT_SLEEP = 1
 # edit how many times in 'love'
@@ -329,6 +341,17 @@ def policeanimation(update: Update, context: CallbackContext):
 
 @user_admin
 @run_async
+def blockanimation(update: Update, context: CallbackContext):
+    bot, args = context.bot, context.args
+    msg = update.effective_message.reply_text("ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ...♥︎")
+    for x in range(EDIT_TIMES):
+        msg.edit_text(block_chain[x % 18])
+        time.sleep(EDIT_SLEEP)
+    msg.edit_text("ʙʟᴏᴄᴋ ᴄʜᴀɪɴ ʙᴀʙʏ..☆")
+
+
+@user_admin
+@run_async
 def moonanimation(update: Update, context: CallbackContext):
     bot, args = context.bot, context.args
     msg = update.effective_message.reply_text("🌚")
@@ -375,6 +398,17 @@ def love(update: Update, context: CallbackContext):
 
 @user_admin
 @run_async
+def heart(update: Update, context: CallbackContext):
+    bot, args = context.bot, context.args
+    msg = update.effective_message.reply_text("ᴡᴀɪᴛ ʙᴀʙʏ...♥︎")
+    for x in range(EDIT_TIMES):
+        msg.edit_text(heart_siren[x % 10])
+        time.sleep(EDIT_SLEEP)
+    msg.edit_text("❖ ᴄᴏʟᴏᴜʀғᴜʟʟ ʜᴇᴀʀᴛ ♥︎")
+  
+
+@user_admin
+@run_async
 def kill(update: Update, context: CallbackContext):
     bot, args = context.bot, context.args
     msg = update.effective_message.reply_text("🔫")
@@ -386,6 +420,7 @@ def kill(update: Update, context: CallbackContext):
 
 KILL_HANDLER = DisableAbleCommandHandler("kill", kill)
 LOVE_HANDLER = DisableAbleCommandHandler("love", love)
+HEART_HANDLER = DisableAbleCommandHandler("heart", heart)
 HACK_HANDLER = DisableAbleCommandHandler("hack", hack)
 BOMBS_HANDLER = DisableAbleCommandHandler("bombs", bombs)
 MOONANIMATION_HANDLER = DisableAbleCommandHandler("moon", moonanimation)
@@ -393,12 +428,15 @@ CLOCKANIMATION_HANDLER = DisableAbleCommandHandler("clock", clockanimation)
 BRAINANIMATION_HANDLER = DisableAbleCommandHandler("brain", brainanimation)
 INDIAANIMATION_HANDLER = DisableAbleCommandHandler("flag", indiaanimation)
 POLICEANIMATION_HANDLER = DisableAbleCommandHandler("police", policeanimation)
+BLOCKANIMATION_HANDLER = DisableAbleCommandHandler("block", blockanimation)
 dispatcher.add_handler(KILL_HANDLER)
 dispatcher.add_handler(LOVE_HANDLER)
+dispatcher.add_handler(HEART_HANDLER)
 dispatcher.add_handler(HACK_HANDLER)
 dispatcher.add_handler(BOMBS_HANDLER)
 dispatcher.add_handler(INDIAANIMATION_HANDLER)
 dispatcher.add_handler(POLICEANIMATION_HANDLER)
+dispatcher.add_handler(BLOCKANIMATION_HANDLER)
 dispatcher.add_handler(MOONANIMATION_HANDLER)
 dispatcher.add_handler(CLOCKANIMATION_HANDLER)
 dispatcher.add_handler(BRAINANIMATION_HANDLER)
