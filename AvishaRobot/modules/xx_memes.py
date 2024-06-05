@@ -1,12 +1,12 @@
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import filters
-from AvishaRobot import pgram as bot
+from AvishaRobot import pbot as app
 import random
 import requests 
         
         
 
-@bot.on_message(filters.command(["ameme","animememe"]))
+@app.on_message(filters.command(["ameme","animememe"]))
 async def animememes(_, m):
      res = requests.get("https://meme-api.herokuapp.com/gimme/animememes").json()
      url = res['url']
@@ -24,7 +24,7 @@ async def animememes(_, m):
         ),
     )
         
-@bot.on_callback_query(filters.regex("ameme"))
+@app.on_callback_query(filters.regex("ameme"))
 async def ameme(_, query: CallbackQuery):
                    query = query.message
                    await query.delete()
@@ -44,7 +44,7 @@ async def ameme(_, query: CallbackQuery):
         ),
     )
                 
-@bot.on_message(filters.command("meme"))
+@app.on_message(filters.command("meme"))
 async def memes(_, m):
      res = requests.get("https://meme-api.herokuapp.com/gimme/memes").json()
      url = res['url']
@@ -62,7 +62,7 @@ async def memes(_, m):
         ),
     )
         
-@bot.on_callback_query(filters.regex("bmeme"))
+@app.on_callback_query(filters.regex("bmeme"))
 async def memess(_, query: CallbackQuery):
                    query = query.message
                    await query.delete()
@@ -82,7 +82,7 @@ async def memess(_, query: CallbackQuery):
         ),
     )
 
-@bot.on_message(filters.command(["hmeme","hentaimeme"]))
+@app.on_message(filters.command(["hmeme","hentaimeme"]))
 async def hetaimemes(_, m):
      res = requests.get("https://meme-api.herokuapp.com/gimme/hentaimemes").json()
      url = res['url']
@@ -100,7 +100,7 @@ async def hetaimemes(_, m):
         ),
     )
         
-@bot.on_callback_query(filters.regex("cmeme"))
+@app.on_callback_query(filters.regex("cmeme"))
 async def hmeme(_, query: CallbackQuery):
                    query = query.message
                    await query.delete()
