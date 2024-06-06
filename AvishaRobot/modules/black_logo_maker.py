@@ -1697,83 +1697,6 @@ LOGO_LINKS = [
     "https://telegra.ph/file/258c02c002e89287d5d9b.jpg",
     "https://telegra.ph/file/d2abc99773a9d4954c2ba.jpg",
     "https://telegra.ph/file/9849b3940f063b065f4e3.jpg"
-    ]
-
-######
-
-AVISHA_LINK = [ 
-"https://telegra.ph/file/8d35265f41f05f6bd663a.jpg",
-"https://telegra.ph/file/4e11e6199068280cec0f1.jpg",
-"https://telegra.ph/file/8581e40f157259db0bd05.jpg",
-"https://telegra.ph/file/fb44d98a87aa6b767604c.jpg",
-"https://telegra.ph/file/cf4d0bc02ee21b970dc25.jpg",
-"https://telegra.ph/file/bd9dbc9e099fce0e68a15.jpg",
-"https://telegra.ph/file/31f0b3c42e6d87173e729.jpg",
-"https://telegra.ph/file/d6e286247b73132ce1793.jpg",
-"https://telegra.ph/file/5ec974b5d2cced57d384f.jpg",
-"https://telegra.ph/file/fef8074cfe4970f7744f5.jpg",
-"https://telegra.ph/file/b78d414cc71d1be05b9b8.jpg",
-"https://telegra.ph/file/bd532100194da74e78302.jpg",
-"https://telegra.ph/file/7d37f59b4e053eb2c4383.jpg",
-"https://telegra.ph/file/7a59e2aa9fc7fee939702.jpg",
-"https://telegra.ph/file/8464a35eafec8e434eef5.jpg",
-"https://telegra.ph/file/71243a3b45779d419c1b7.jpg",
-"https://telegra.ph/file/2fd3f61898f6b61ca243b.jpg",
-"https://telegra.ph/file/584d1e14a67498e4267a3.jpg",
-"https://telegra.ph/file/8a5dbb5990badc63f173c.jpg",
-"https://telegra.ph/file/f793097579ca4fe303b1b.jpg",
-"https://telegra.ph/file/83c2fcb947a93b610dec4.jpg",
-"https://telegra.ph/file/1704671ef1c578189e82a.jpg",
-"https://telegra.ph/file/4a24f1407b3ca023c8734.jpg",
-"https://telegra.ph/file/7919b9bec9dfe11789cfa.jpg",
-"https://telegra.ph/file/6a7b8e1aba27088963fae.jpg",
-"https://telegra.ph/file/9449a7b22a3c8e83340fa.jpg",
-"https://telegra.ph/file/5a0d67f6c212bafa5b1f8.jpg",
-"https://telegra.ph/file/52776e8330f1076caa813.jpg",
-"https://telegra.ph/file/c2e0b4867a2c2123f2722.jpg",
-"https://graph.org/file/93a34bf0970c80edf03dd.jpg",
-"https://graph.org/file/5c5abf6c1432660cbf2f5.jpg",
-"https://graph.org/file/2de8012a098ed5ad1c7dd.jpg",
-"https://graph.org/file/0d4411d0a5b9fc27c7d86.jpg",
-"https://graph.org/file/adc69cc6696b38281ed11.jpg",
-"https://graph.org/file/31c35f09b70b26905c595.jpg",
-"https://graph.org/file/6d1515106366ca1d90b6a.jpg",
-"https://graph.org/file/83c4dd053af552b1d6a9b.jpg",
-"https://graph.org/file/201b786ed615eb5786dbc.jpg",
-"https://graph.org/file/f2c5916a91637ce0531f9.jpg",
-"https://telegra.ph/file/23d7db7822b13fde4ed1e.jpg",
-"https://telegra.ph/file/d5819dcd0791f1602037b.jpg",
-"https://telegra.ph/file/b6cd0ef1a811ffecf0e8d.jpg",
-"https://telegra.ph/file/84e05fb001a9b71ea6901.jpg",
-"https://telegra.ph/file/c17d52a09415aedceeb21.jpg",
-"https://telegra.ph/file/893a897b030e00d1f5001.jpg",
-"https://telegra.ph/file/70e2108a019a309e01eba.jpg",
-"https://telegra.ph/file/b4fe40608dacbf2f89a73.jpg",
-"https://telegra.ph/file/6e9b6aea22fa1f252c261.jpg",
-"https://telegra.ph/file/0904d88554adc4836be7a.jpg",
-"https://telegra.ph/file/5dc305a3c2b4f96c228e5.jpg",
-"https://telegra.ph/file/5bf9a00f55101376a77c8.jpg",
-"https://telegra.ph/file/642df90496ef1f7e3493c.jpg",
-"https://telegra.ph/file/30097d181094ca2c8a11e.jpg",
-"https://telegra.ph/file/9c5e60de7d8c517cc3577.jpg",
-"https://telegra.ph/file/2bad12dda03c56816c046.jpg",
-"https://telegra.ph/file/fe20cbe2b4e40d813c2c5.jpg",
-"https://telegra.ph/file/b3b5eb5ced0f6bcdef6c1.jpg",
-"https://telegra.ph/file/339ceb8f086b47c2b78fc.jpg",
-"https://telegra.ph/file/8aba7f57e61ea7dcd3909.jpg",
-"https://telegra.ph/file/7724d4fad83215f0ef781.jpg",
-"https://telegra.ph/file/fc6a08517657ac54c96ba.jpg",
-"https://telegra.ph/file/7bdfa6d6fb7086331726f.jpg",
-"https://telegra.ph/file/dcdc4714ce57220a36262.jpg",
-"https://telegra.ph/file/dd5c01c3be40cde92697d.jpg",
-"https://telegra.ph/file/da7065662dfa20cd42784.jpg",
-"https://telegra.ph/file/376d2fff7b2a5c682fce1.jpg",
-"https://telegra.ph/file/7bf0fef2472e7ad530e1f.jpg",
-"https://telegra.ph/file/55d0f5ee7ca22e3397c14.jpg",
-"https://telegra.ph/file/125be16ac89f26cedae80.jpg",
-"https://telegra.ph/file/6b1b0a9f53a27fee34595.jpg",
-"https://telegra.ph/file/056fde1bc6c865948bfbc.jpg",
-
 ]
 
 ######
@@ -1820,48 +1743,6 @@ async def lego(event):
     await event.reply(f'❖ ᴇʀʀᴏʀ, ʀᴇᴘᴏʀᴛ ᴛᴏ ➥ @{SUPPORT_CHAT} ʙᴀʙʏ.')
      
 ############
-
-@register(pattern="^/glogo ?(.*)")
-async def lego(event):
- quew = event.pattern_match.group(1)
- if event.sender_id == OWNER_ID:
-     pass
- else:
-
-    if not quew:
-       await event.reply('❖ `ᴘʟᴇᴀꜱᴇ ᴀᴅᴅ ᴛᴇxᴛ ᴛᴏ ᴛʜᴇ ɪᴍᴀɢᴇ ʙᴀʙʏ.`')
-       return
-    else:
-       pass
- pesan = await event.reply('💢')
- try:
-    text = event.pattern_match.group(1)
-    randc = random.choice(AVISHA_LINK)
-    img = Image.open(io.BytesIO(requests.get(randc).content))
-    draw = ImageDraw.Draw(img)
-    image_widthz, image_heightz = img.size
-    pointsize = 350
-    fillcolor = "black"
-    shadowcolor = "blue"
-    fnt = glob.glob("./AvishaRobot/resources/fonts/*")
-    randf = random.choice(fnt)
-    font = ImageFont.truetype(randf, 120)
-    w, h = draw.textsize(text, font=font)
-    h += int(h*0.21)
-    image_width, image_height = img.size
-    draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(255, 255, 255))
-    x = (image_widthz-w)/2
-    y= ((image_heightz-h)/2+6)
-    draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
-    fname="avisha.png"
-    img.save(fname, "png")
-    await tbot.send_file(event.chat_id, file=fname, caption=f"❖ ʟᴏɢᴏ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ➥ [{BOT_NAME}](https://t.me/{BOT_USERNAME})",buttons=button_row)         
-    await pesan.delete()
-    if os.path.exists(fname):
-            os.remove(fname)
- except Exception as e:
-    await event.reply(f'❖ ᴇʀʀᴏʀ, ʀᴇᴘᴏʀᴛ ᴛᴏ ➥ @{SUPPORT_CHAT} ʙᴀʙʏ.')
-     
 ############
  
 file_help = os.path.basename(__file__)
