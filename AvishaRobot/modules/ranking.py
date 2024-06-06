@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pymongo import MongoClient
-from AvishaRobot import app
+from AvishaRobot import pbot as app
 from AvishaRobot import MONGO_DB_URI
 from pyrogram.types import *
 from pyrogram.errors import MessageNotModified
