@@ -8,7 +8,7 @@
        "group",
        "manager"
     ],   
- "repository": "https://github.com/tinaarobot/AvishaRobot",
+ "repository": "https://github.com/anujkumarroy/AvishaRobot",
  "stack": "heroku-22",
  "addons": [
     {
@@ -50,12 +50,12 @@
     "MONGO_DB_URI": {
        "description": "Required for database connections.",
        "required": true,
-       "value": "mongodb+srv://sanasomani786:TJgADfpkI1XVUkKt@cluster0.ruhyad9.mongodb.net/?retryWrites=true&w=majority&appName=AtlasApp"
+       "value": ""
     },
     "DATABASE_URL": {
         "description": "enter postgesql url,,  https://www.elephantsql.com",
         "required": false,
-        "value": "postgres://bnastfeg:SSeKbnIRV5dkO_2ewW10Y0EOuvRVgo1f@kesavan.db.elephantsql.com/bnastfeg"
+        "value": ""
     },
     "OWNER_ID": {
        "description": "Your user ID as an integer.",
@@ -80,7 +80,7 @@
     "TIME_API_KEY": {
         "description": " Get your API key from https://timezonedb.com/api",
         "required": false,
-        "value": "LQ04223P6WGS"
+        "value": ""
     },         
     "START_IMG": {
        "description": "Telegraph link of the image which will be shown at start command.",
@@ -95,7 +95,7 @@
     "TOKEN": {
        "description": "Get bot token from @BotFather on TG",
        "required": true,
-       "value": "6363591173:AAGdNBcvQFTRT2oNHhJR_PwAH-FYyENX3gY"
+       "value": ""
     }
  }
 }
