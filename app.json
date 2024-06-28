@@ -9,7 +9,7 @@
        "manager"
     ],   
  "repository": "https://github.com/LOCO-PILOT/AvishaRobot",
- "stack": "heroku-22",
+ "stack": "heroku-24",
  "addons": [
     {
        "options": {
