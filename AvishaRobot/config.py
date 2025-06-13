@@ -1,4 +1,7 @@
+from os import getenv
+from dotenv import load_dotenv
 
+load_dotenv()
 class Config(object):
     LOGGER = True
 
@@ -16,7 +19,7 @@ class Config(object):
   
     OWNER_ID = getenv("OWNER_ID", "6195725562") 
 
-    OWNER_USERNAME = ("OWNER_USERNAME", "loco_x_Pilot")
+    OWNER_USERNAME = ("OWNER_USERNAME", "Eczade")
     
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "the_friendz")
    
