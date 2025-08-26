@@ -10,7 +10,7 @@
   <img src="https://telegra.ph/file/848767ec8203835c68a1f.jpg">
 </p>
 
- <img src="https://readme-typing-svg.herokuapp.com?color=FF00FF&width=420&lines=🐙+🄳🄴🄿🄻🄾🅈+🄾🄽+🄷🄴🅁🄾🄺🅄+🄽🄾🅆+🐙">
+ <img src="https://readme-typing-svg.herokuapp.com?color=FF00FF&width=420&lines=🐙+MADE+BY+ZADE+🐙">
 
 
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
